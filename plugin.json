@@ -1,16 +1,17 @@
 {
-    "id": "wiki",
-    "name": "Wiki",
-    "description": "A complete wiki for your website.",
-    "version": "1.1.7",
-    "url": "https://market.azuriom.com/resources/28",
+    "id": "docs",
+    "name": "Docs",
+    "description": "A rewrite of the UI from the azuriom's wiki plugin to allow a more intuitive and doc-friendly interface",
+    "version": "1.0.0",
+    "url": "https://market.azuriom.com/resources/0",
     "authors": [
-        "Azuriom"
+        "Azuriom",
+        "Funasitien"
     ],
     "azuriom_api": "1.0.0",
     "providers": [
-        "\\Azuriom\\Plugin\\Wiki\\Providers\\WikiServiceProvider",
-        "\\Azuriom\\Plugin\\Wiki\\Providers\\RouteServiceProvider"
+        "\\Azuriom\\Plugin\\Docs\\Providers\\WikiServiceProvider",
+        "\\Azuriom\\Plugin\\Docs\\Providers\\RouteServiceProvider"
     ],
-    "apiId": 28
+    "apiId": 0
 }
