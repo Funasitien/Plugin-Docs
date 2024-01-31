@@ -1,7 +1,7 @@
 <?php
 
-use Azuriom\Plugin\Wiki\Controllers\CategoryController;
-use Azuriom\Plugin\Wiki\Controllers\CategoryPageController;
+use Azuriom\Plugin\Docs\Controllers\CategoryController;
+use Azuriom\Plugin\Docs\Controllers\CategoryPageController;
 use Illuminate\Support\Facades\Route;
 
 /*
